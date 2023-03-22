@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void raiz (View v){
         int intValor1 = Integer.parseInt(valor1.getText().toString());
-        double raiz = Math.sqrt(intValor1);
+        double raiz = java.lang.Math.sqrt(intValor1);
         String resultadoRaiz = String.valueOf(raiz);
         resultado.setText(resultadoRaiz);
 
