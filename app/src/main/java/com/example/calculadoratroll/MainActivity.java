@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     public void dividir (View v){
         int intValor1 = Integer.parseInt(valor1.getText().toString());
         int intValor2 = Integer.parseInt(valor2.getText().toString());
-        int divisao = intValor1/intValor2;
+        double divisao = intValor1/intValor2;
         String resultadoDivisao = String.valueOf(divisao);
         resultado.setText(resultadoDivisao);
     }
